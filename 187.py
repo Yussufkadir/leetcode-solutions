@@ -1,3 +1,4 @@
+from typing import List
 def findRepeatedDnaSequences(self, s: str) -> List[str]:
     seen = set()
     repeated = set()
